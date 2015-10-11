@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box; }
+
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 490px;
+  padding: 10px 142px 0 122px; }
+
+.imagelogo {
+  background-image: url("../images/logo.png");
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin: 0 15px 0 0; }
+
+.titlelogo {
+  float: left;
+  padding: 10px 0 0 0;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  width: 70%; }
+
+.nav {
+  float: right;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbutton {
+  float: left;
+  margin: 0 0 0 15px; }
+
+.magglass {
+  background-image: url("../images/search-icon.png");
+  height: 18px;
+  width: 16px;
+  float: right;
+  margin: 0 0 0 5px; }
+
+h1 {
+  text-align: center;
+  margin: 170px 0 0 0;
+  font-size: 6em;
+  color: white;
+  font-weight: normal;
+  height: 100px; }
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: .95em;
+  opacity: .5; }
+
+.mainarticle {
+  width: 600px;
+  float: left;
+  margin-right: 125px; }
+
+main {
+  box-sizing: border-box;
+  padding: 70px 130px 0 140px; }
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  color: #083452;
+  font-size: 4em;
+  margin: 0 0 0 0; }
+
+.infoauthor {
+  background-image: url("../images/avatar.png");
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  margin: 0;
+  float: left; }
+
+.name {
+  float: left;
+  color: #106DB3;
+  margin: 0 0 0 10px;
+  padding: 5px 0 0 0;
+  font-size: .8em; }
+
+.datebar {
+  color: #B7C3CC;
+  margin: 0 0 0 15px;
+  float: left;
+  border-style: none;
+  font-size: .80em;
+  padding: 5px 0 0 0; }
+
+.date {
+  text-decoration: underline; }
+
+.articles article {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: #454B50;
+  margin: 40px 0 0 0; }
+
+.radicalbox {
+  border-left: 2px solid #AFAFAF;
+  color: #106DB2;
+  margin: 25px 0 0 5px;
+  padding: 18px 0 12px 18px;
+  font-size: 1.75em;
+  font-family: 'Open Sans', sans-serif; }
+
+.links {
+  margin: 20px 0 70px 5px; }
+
+.linkimage {
+  background-color: #5E686F;
+  float: left;
+  height: 30px;
+  width: 30px;
+  padding: 8px 10px 8px 8px; }
+
+.linkimage1 {
+  background-image: url("../images/icon-comment.png");
+  height: 15px;
+  width: 16px; }
+
+.linkimage2 {
+  background-image: url("../images/icon-upload.png");
+  height: 15px;
+  width: 16px; }
+
+.linkimage3 {
+  background-image: url("../images/icon-share.png");
+  height: 15px;
+  width: 16px; }
+
+.linkshover:hover .linkimage {
+  background-color: #083452; }
+.linkshover:hover .link {
+  background-color: #106DB3; }
+
+.link {
+  margin: 0 10px 0 0;
+  color: white;
+  background-color: #9CABB7;
+  padding: 6px 14px;
+  float: left;
+  font-size: .75em;
+  text-align: left;
+  font-family: 'Open Sans';
+  height: 30px; }
+
+.sidepanel {
+  float: right;
+  width: 28%;
+  margin: 0 0 155px 0; }
+
+.portrait {
+  background-image: url("../images/avatar.png");
+  height: 85px;
+  width: 85px;
+  background-size: contain;
+  text-align: center;
+  margin: 0 auto 17px auto; }
+
+.authorname {
+  font-family: 'Open Sans', sans-serif;
+  color: #106DB3;
+  text-align: center; }
+
+.socmed {
+  text-align: center; }
+  .socmed a:link {
+    color: #A3B3BF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .83em;
+    text-align: center; }
+  .socmed .facebook {
+    margin: 0 19px; }
+  .socmed .twitter {
+    margin: 0 0 0 px; }
+
+.ad {
+  background-image: url("../images/ad.jpg");
+  margin: 58px auto 5px auto;
+  width: 278px;
+  height: 300px; }
+
+.aboutad {
+  float: right;
+  color: #BAC6CF;
+  text-decoration: underline;
+  padding: 0 0 0 0;
+  font-size: .85em;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 150px; }
+
+h5 {
+  margin: 50px 180px 15px 0;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  color: #106DB3;
+  font-size: 1.15em;
+  width: 250px; }
+
+.sideinfo {
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
