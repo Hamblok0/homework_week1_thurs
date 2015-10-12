@@ -71,11 +71,13 @@ h2 {
   width: 600px;
   float: left;
   margin-right: 125px;
+  margin-left: 140px;
 }
 
 main {
   box-sizing: border-box;
-  padding: 70px 130px 0 140px;
+  padding: 70px 0 0 0;
+  height: 67em;
 
 }
 
@@ -198,7 +200,8 @@ h3 {
 .sidepanel {
   float:right;
   width: 28%;
-  margin: 0 0 155px 0;
+  margin: 0 50px 155px 0;
+
 
 }
 
@@ -247,7 +250,9 @@ h3 {
   padding: 0 0 0 0;
   font-size: .85em;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 150px;
+  clear: left;  
+
+
 }
 
 h5 {
@@ -266,6 +271,51 @@ h5 {
 }
 
 .popular {
-  ;
+  height: 145px;
+  border-top: 1px solid #E1E7EA;
+}
 
+.most {
+  text-align: center;
+  color: #083452;
+  font-size: 4.25em;
+  font-family: 'Oswald', sans-serif;
+  margin: 45px 0;
+}
+
+.imgpoppost {
+  height: 330px;
+  width: 100%;
+}
+.popsize {
+  height: 330px;
+  width: 320px;
+  float: left;
+
+}
+
+.popimage4 {
+
+}
+
+
+
+.popimage1 {
+  background-image: url("../images/article-image-1.jpg");
+}
+.popimage2 {
+  background-image: url("../images/article-image-2.jpg");
+}
+.popimage3 {
+  background-image: url("../images/article-image-3.jpg");
+}
+.popimage4 {
+  background-image: url("../images/article-image-4.jpg");
+}
+
+.popinfo {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  margin: 250px 0 0 0;
 }
