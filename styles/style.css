@@ -186,7 +186,7 @@ h3 {
 
 .ad {
   background-image: url("../images/ad.jpg");
-  margin: 58px auto 5px auto;
+  margin: 58px 0 5px 40px;
   width: 278px;
   height: 300px; }
 
@@ -197,7 +197,7 @@ h3 {
   padding: 0 0 0 0;
   font-size: .85em;
   font-family: 'Open Sans', sans-serif;
-  clear: left; }
+  margin: 0 39px; }
 
 h5 {
   margin: 50px 180px 15px 0;
@@ -211,15 +211,16 @@ h5 {
   height: 100%; }
 
 .popular {
-  height: 145px;
-  border-top: 1px solid #E1E7EA; }
+  border-top: 1px solid #E1E7EA;
+  height: 502px; }
 
 .most {
   text-align: center;
   color: #083452;
   font-size: 4.25em;
   font-family: 'Oswald', sans-serif;
-  margin: 45px 0; }
+  margin: 0;
+  padding: 35px 0; }
 
 .imgpoppost {
   height: 330px;
@@ -228,7 +229,18 @@ h5 {
 .popsize {
   height: 330px;
   width: 320px;
-  float: left; }
+  float: left;
+  padding: 280px 0 15px 15px; }
+
+.popimage3 {
+  padding: 230px 0 15px 20px; }
+
+h6 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  width: 250px;
+  margin: 0; }
 
 .popimage1 {
   background-image: url("../images/article-image-1.jpg"); }
@@ -242,10 +254,47 @@ h5 {
 .popimage4 {
   background-image: url("../images/article-image-4.jpg"); }
 
-.popinfo {
+footer {
+  background-color: #083452;
+  height: 95px;
+  width: 100%;
+  padding: 25px 125px 25px 165px;
+  font-family: 'Open Sans',sans-serif;
   color: white;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2em;
-  margin: 250px 0 0 0; }
+  font-size: .75em;
+  font-weight: lighter; }
+
+.legal {
+  padding: 12px 0 0 0;
+  margin: 0 auto; }
+
+.emblem {
+  background-image: url("../images/theironyard-logo.png");
+  width: 46px;
+  height: 35px;
+  float: left;
+  margin-right: 14px; }
+
+.compinfo {
+  width: 50%;
+  float: left; }
+
+.footnav {
+  float: right;
+  text-align: center;
+  padding: 10px 0 0 0; }
+
+.navitem {
+  float: right;
+  margin-right: 10px;
+  padding: 0 10px 0 0; }
+
+.navborder {
+  border-right-color: #5E686F;
+  border-right-style: solid;
+  border-right-width: 1px; }
+
+.footnav {
+  height: 20px; }
 
 /*# sourceMappingURL=style.css.map */
